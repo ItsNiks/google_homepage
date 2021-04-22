@@ -1,0 +1,107 @@
+header {
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    }
+
+.navbarsx {
+  width: 50%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  }
+
+  .navbardx {
+    width: 48%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .link {
+    padding: 6px 8px 6px 8px;
+  }
+
+  .login {
+    background-image: linear-gradient(red, blue, red);
+    background-position: center;
+    height: 20px;
+    width: 15px;
+    border-radius: 50%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .logo, input, .search, .lucky {
+  width: 20%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+input {
+  width: 30%;
+  height: 5%;
+  top: 43%;
+  border: solid lightGray 1px;
+  border-radius: 20px;
+  z-index: -1;
+  }
+
+  .lens {
+    margin-top: 19.6%;
+    margin-left: 35.3%;
+    z-index: 1;
+    filter: contrast(0);
+  }
+
+  button {
+  border: solid 2px white;
+  border-radius: 0px;
+  height: 40px;
+  cursor: pointer;
+  }
+
+  .search, .lucky {
+    top: 50%;
+    width: 150px;
+  }
+
+  .search {
+    left: 45%;
+  }
+
+  .lucky {
+    left: 55%;
+  }
+
+  footer {
+    background-color: lightGray;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    }
